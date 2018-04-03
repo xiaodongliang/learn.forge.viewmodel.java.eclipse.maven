@@ -46,7 +46,8 @@ public class oauthtoken extends HttpServlet {
         try{
             token = oauth.getTokenPublic();
             obj.put("access_token", token);
-            obj.put("expires_in", "dummy");
+            // We Need a getDate Time function here and add the exp time in Seconds so every time we have a new value. 
+            obj.put("expires_in", 3500);
             out.print(obj);
         }
         catch (Exception var2) {

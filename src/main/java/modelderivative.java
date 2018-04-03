@@ -18,7 +18,7 @@
 
 import com.autodesk.client.ApiException;
 import com.autodesk.client.ApiResponse;
-import com.autodesk.client.api.BucketsApi;
+//import com.autodesk.client.api.BucketsApi;
 import com.autodesk.client.model.*;
 
 import com.autodesk.client.api.DerivativesApi;
@@ -31,7 +31,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.BufferedReader;
 import java.io.IOException;
-import java.io.PrintWriter;
+//import java.io.PrintWriter;
 import java.util.Arrays;
 
 @WebServlet({"/modelderivative"})
@@ -47,7 +47,7 @@ public class modelderivative  extends HttpServlet {
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 
     }
-
+ 
     protected void doPost(HttpServletRequest req, HttpServletResponse res)
             throws ServletException, IOException {
 

@@ -22,8 +22,8 @@ public class config {
     // set environment variables or hard-code here
 
     public static class credentials{
-        public static String client_id = System.getenv("FORGE_CLIENT_ID");
-        public static String client_secret = System.getenv("FORGE_CLIENT_SECRET");
+        public static String client_id = "Kg9AqkosvyyM5FoMm6Prqvk2TbnQdsG1";
+        public static String client_secret = "Ccwt6CT9Ftdfbiu1";
     };
 
 

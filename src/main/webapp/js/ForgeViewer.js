@@ -8,7 +8,7 @@ function launchViewer(urn) {
   var documentId = 'urn:' + urn;
   Autodesk.Viewing.Initializer(options, function onInitialized() {
     viewerApp = new Autodesk.Viewing.ViewingApplication('forgeViewer');
-    viewerApp.registerViewer(viewerApp.k3D, Autodesk.Viewing.Private.GuiViewer3D);
+    viewerApp.registerViewer(viewerApp.k3D, Autodesk.Viewing.Private.GuiViewer3D,{ extensions: ['Autodesk.BIM360.MarkupsUI']} );
     viewerApp.loadDocument(documentId, onDocumentLoadSuccess, onDocumentLoadFailure);
   });
 }

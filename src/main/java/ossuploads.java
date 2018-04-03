@@ -18,34 +18,34 @@
 
 import com.autodesk.client.ApiException;
 import com.autodesk.client.ApiResponse;
-import com.autodesk.client.api.DerivativesApi;
+//import com.autodesk.client.api.DerivativesApi;
 import com.autodesk.client.api.ObjectsApi;
 
 import com.autodesk.client.model.*;
-import io.swagger.annotations.Api;
-import org.json.JSONObject;
+//import io.swagger.annotations.Api;
+//import org.json.JSONObject;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import java.io.BufferedReader;
+//import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.*;
-import java.util.Arrays;
+//import java.util.Arrays;
 import java.util.regex.*;
 import java.util.List;
 import java.util.Iterator;
 
-import org.apache.commons.codec.binary.Base64;
+//import org.apache.commons.codec.binary.Base64;
 
-import javax.ws.rs.core.UriBuilder;
-import java.awt.*;
-import java.io.*;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
+//import javax.ws.rs.core.UriBuilder;
+//import java.awt.*;
+//import java.io.*;
+//import java.util.ArrayList;
+//import java.util.Arrays;
+//import java.util.List;
 
 import org.apache.commons.fileupload.FileItem;
 import org.apache.commons.fileupload.disk.DiskFileItemFactory;
